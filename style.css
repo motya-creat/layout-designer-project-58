@@ -22,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     padding-left: 16.5%;
-    width: 90%;
+    width: 83.5%;
     height: 200px;
     background-color: #fe8a01;
     color: #fff;
@@ -47,27 +47,63 @@ h3 {
 
 section {
     display: flex;
-    border: 1px solid black;
+    min-width: 1110px;
+    padding: 100px 0 100px 0;
+}
 
+.header-top {
+    display: flex;
+    flex-direction: row;
 }
 
 .header-top h2 {
     height: 525px;
+    font-size: 80px;
 }
 
 .main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 1110px;
-    margin: 100px 0 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid black;
+    background: url(images/background.png);
+    opacity: 90%;
 }
 
 .header-bottom {
     display: flex;
-    justify-content: center
-    flex-direction: ;
+    justify-content: center;
+    gap: 30px;
 }
+
+.bg-orange {
+    color: #fe8a01;
+}
+
+button {
+    border: none;
+    background-color: #fe8a01;
+    color: #fff;
+    padding: 12px 24px 12px 24px;
+    font-weight: bold;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+.content {
+    position: absolute;
+    margin-top: 100px;
+}
+.video img {
+    position: absolute;
+    width: 919px;
+    width: 517px;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
