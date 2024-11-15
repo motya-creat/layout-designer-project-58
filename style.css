@@ -87,6 +87,7 @@ button {
     color: #fff;
     padding: 12px 24px 12px 24px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .video {
@@ -97,7 +98,6 @@ button {
     position: relative;
 }
 .content {
-    position: absolute;
     margin-top: 100px;
 }
 .video img {
@@ -107,3 +107,6 @@ button {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
+.navigation {
+    background-color: #908d8b;
+}
