@@ -29,6 +29,16 @@ header {
     font-size: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: Open sans;
+}
+
+
 h1,h2,h3 {
     font-family: Open sans;
     line-height: 1.2em;
@@ -46,6 +56,7 @@ h3 {
 }
 
 section {
+    justify-content: center;
     min-width: 1110px;
     padding: 100px 0 100px 0;
 }
@@ -53,6 +64,16 @@ section {
 .header-top {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    gap: 540px;
+}
+
+.header-top svg {
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: -280px;
 }
 
 .header-top h2 {
@@ -74,6 +95,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    font-size: 20px;
     gap: 30px;
 }
 
@@ -130,22 +152,31 @@ button {
     gap: 30px;
 
 }
-
 .card {
     display: flex;
+    justify-content: end;
     flex-direction: column;
     background-color: #f5f4f0;
-    width: 500px;
+    width: 450px;
     height: 400px;
     padding: 24px;
 }
 
-.card h1 {
+.number {
+    display: flex;
+    justify-content: flex-start;
     margin-bottom: 40px;
     font-size: 64px;
     font-family: Neucha;
     line-height: 1;
 }
 .card h2 {
+    height: 60px;
     font-size: 52px;
+}
+.card p {
+    font-size: 26px;
+}
+.tirdt {
+    height: 40px;
 }
