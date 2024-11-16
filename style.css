@@ -180,3 +180,7 @@ button {
 .tirdt {
     height: 40px;
 }
+.none {
+    background-color: #ffffff00;
+    color: #fff;
+}
